@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^5.6.0",
+    "asterisk-ami-client": "^1.1.5",
+    "axios": "^1.7.8",
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "util": "^0.12.5"
+  },
+  "name": "api_pbx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
