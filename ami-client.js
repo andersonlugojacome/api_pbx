@@ -7,7 +7,7 @@ const config = {
     host: 'pbx.notaria62bogota.com',
     port: 7777,
     username: 'ami_notaria62',
-    secret: '$$Notaria62'
+    secret: '62'
 };
 
 let currentRadicado = '';
