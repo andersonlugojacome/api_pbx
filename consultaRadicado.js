@@ -49,7 +49,7 @@ async function consultarRadicado(radicado, uniqueId) {
         console.log(`Estado del radicado ${radicado}: ${estadoTramite}`);
 
         // Generar el audio para Asterisk
-        await generarAudio(`El estado de su radicado número ${radicado} es: ${estadoTramite}`, uniqueId);
+        await generarAudio(`El estado de su radicado número ${radicado} es: ${estadoTramite}, si desea más información, presiona dos para ser atentido por nuestra operadora.`, uniqueId);
     } catch (error) {
         console.error('Error al consultar el radicado:', error.message);
 
@@ -70,4 +70,4 @@ if (!uniqueId) {
     process.exit(1);
 }
 
-consultarRadicado(radicado, uniqueId);
+consultarRadicado(radicado, radicado);
